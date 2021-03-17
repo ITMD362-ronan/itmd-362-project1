@@ -31,9 +31,20 @@ label {
 }
 
 button, input {
-  font-family: Noto Sans JP, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   overflow: visible;
-  border-color: transparent;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+@media screen and (min-width: 200px) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 75%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+  }
 }
