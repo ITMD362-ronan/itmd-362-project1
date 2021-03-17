@@ -6,6 +6,10 @@ html {
   background: #b57633;
 }
 
+fieldset {
+  border-color: transparent;
+}
+
 h1 {
   font-size: 200%;
   font-weight: bold;
