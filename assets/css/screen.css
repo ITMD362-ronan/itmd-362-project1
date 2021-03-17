@@ -48,3 +48,16 @@ button, input {
     text-align: center;
   }
 }
+
+@media screen and (min-width: 400px) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 100%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+  }
+}
