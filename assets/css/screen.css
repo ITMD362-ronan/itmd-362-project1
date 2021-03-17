@@ -34,6 +34,8 @@ button, input {
   overflow: visible;
   margin-top: 1em;
   margin-bottom: 1em;
+  background-color: #d15e5e;
+  border-color: transparent;
 }
 
 @media screen and (min-width: 200px) {
@@ -49,13 +51,26 @@ button, input {
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 330px) {
   #wrap {
     display: inline-block;
     justify-content: center;
   }
   html {
     font-size: 100%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 125%;
     display: inline-block;
     justify-content: center;
     text-align: center;
