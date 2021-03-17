@@ -19,3 +19,9 @@ h2 {
   text-align: center;
   padding-bottom: 0.5em;
 }
+
+label {
+  display: block;
+  padding-bottom: 1em;
+  text-align: center;
+}
