@@ -29,3 +29,9 @@ label {
   padding-bottom: 1em;
   text-align: center;
 }
+
+input {
+  font-family: Noto Sans JP, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  overflow: visible;
+  border-color: transparent;
+}
