@@ -2,4 +2,6 @@
 
 html {
   font-family: Noto Sans JP, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  font-size: 1.125em;
+  background: #b57633;
 }
